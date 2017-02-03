@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h3>Double click on the file node to turn it into a folder</h3>
     <ul>
       <item class="item" :model="treeData"/>
     <ul>
