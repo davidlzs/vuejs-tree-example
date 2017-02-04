@@ -2,6 +2,8 @@
 
 > A Vue.js project to demo simple tree view from the official example
 
+[Live Demo](https://vuejs-tree-example.herokuapp.com/)
+
 ## Build Setup
 
 ``` bash
