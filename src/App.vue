@@ -4,11 +4,14 @@
     <ul>
       <item class="item" :model="treeData"/>
     <ul>
+    <hr/>
+    <book/>
   </div>
 </template>
 
 <script>
 import Item from './components/Item'
+import Book from './components/Book'
 
 var data = {
   name: 'My Tree',
@@ -46,7 +49,8 @@ export default {
     }
   },
   components: {
-    Item
+    Item,
+    Book
   }
 }
 </script>
